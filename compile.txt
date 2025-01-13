@@ -1,0 +1,2 @@
+nasm -f elf64 file.asm -o file.o
+gcc -nostartfiles file.o -o file
